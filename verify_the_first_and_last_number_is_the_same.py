@@ -8,6 +8,10 @@ def first_last_same(numberList):
     first_num = numberList[0]
     last_num = numberList[-1]
     
+    if first_num == last_num:
+        return True
+    else:
+        return False
 
 # Given lists and print the result
 numbers_x = [10, 20, 30, 40, 10]
