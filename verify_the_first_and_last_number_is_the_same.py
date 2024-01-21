@@ -9,4 +9,8 @@ def first_last_same(numberList):
     last_num = numberList[-1]
     
 
-
+# Given lists and print the result
+numbers_x = [10, 20, 30, 40, 10]
+print("The result is", first_last_same(numbers_x))
+numbers_y = [75, 65, 35, 75, 30]
+print("The result is", first_last_same(numbers_y))
